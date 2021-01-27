@@ -64,23 +64,23 @@
      const loginBtn = document.getElementById("login");
      loginBtn.addEventListener("click", function () {
         const loginArea = document.getElementById("login-area");
-        loginArea.style.display = "none"
-        const transactionArea = document.getElementById("transaction-area")
-        transactionArea.style.display = "block"
+        loginArea.style.display = "none";
+        const transactionArea = document.getElementById("transaction-area");
+        transactionArea.style.display = "block";
          
      })
-     const depositBtn = document.getElementById("addDeposit")
+     const depositBtn = document.getElementById("addDeposit");
      depositBtn.addEventListener("click", function () {
         
-        const depositAmount = document.getElementById("depositAmount").value
-         const depositNumber = parseFloat("depositAmount")
+        const depositAmount = document.getElementById("depositAmount").value;
+         const depositNumber = parseFloat("depositAmount");
 
-        const currentDeposit = document.getElementById("currentDeposit").innerText
-        const currentDepositNumber = parseFloat("currentDeposit")
+        const currentDeposit = document.getElementById("currentDeposit").innerText;
+        const currentDepositNumber = parseFloat("currentDeposit");
         const totalDeposit = currentDepositNumber + depositNumber;
         
         
-        document.getElementById("currentDeposit").innerText = totalDeposit
+        document.getElementById("currentDeposit").innerText = totalDeposit;
 
 
 
